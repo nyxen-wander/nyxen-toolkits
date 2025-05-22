@@ -1,6 +1,6 @@
 # Nyxen's Bash Toolkits
 
-A growing collection of Bash scripts built to automate the small things, analyze logs, compress chaos, and make life in the terminal a little more powerful.
+A growing collection of Bash scripts built to automate the small things and make life in the terminal a little more powerful.
 
 ## What’s Inside?
 
