@@ -4,11 +4,11 @@ A little terminal-based game written in Bash. The player has 5 lives to guess a 
 
 ## Features
 
-- Random number generation
-- Input validation (no symbols or letters allowed)
-- Life system
-- Accuracy calculation after win
-- Clean and simple terminal UX
+- Random number generation.
+- Input validation (no symbols or letters allowed).
+- Life system.
+- Accuracy calculation after win.
+- Clean and simple terminal UX.
 
 ## How to Run
 
