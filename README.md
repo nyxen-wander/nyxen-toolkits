@@ -9,6 +9,7 @@ A growing collection of Bash scripts built to automate the small things and make
 | [`find_and_compress.sh`](https://github.com/nyxen-wander/nyxen-toolkits/blob/main/find_and_compress/README.md) | Compresses `.log` files in a given directory into a timestamped `.tar.gz` archive.                              |
 | [`log_analyzer.sh`](https://github.com/nyxen-wander/nyxen-toolkits/blob/main/log_analyzer/README.md)           | Parses `.log` files and extracts unique IP access info, optionally filtering by resource.                       |
 | [`guessing_game.sh`](https://github.com/nyxen-wander/nyxen-toolkits/blob/main/guessing_game/README.md)         | A little terminal-based game written in Bash. The player has 5 lives to guess a secret number between 1 and 10. |
+|[`task_manager.sh`](https://github.com/nyxen-wander/nyxen-toolkits/blob/main/task_manager/README.md)            | A lightweight, management CLI tool built in pure Bash. Crafted with passion, perseverance, and a pinch of chaotic sleep-deprived energy.|
 
 
 ## Why This Repo Exists?
