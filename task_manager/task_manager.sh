@@ -86,24 +86,14 @@ if [[ "$#" -gt 0 ]]; then
 				# check if given second argument is numeric only
 				if [[ "$(echo "$2" | grep -cE '^[0-9]+$')" -gt 0 ]]; then
 
-					# check if given second argument is in bound
-					if [[ "$2" -le "$ARR_LEN" ]]; then
+					# get task name by given second argument as an index
+					TASK_NAME="${tasks["$2"]}"
 
-						# get task name by given second argument as an index
-						TASK_NAME="${tasks["$2"]}"
+					# remove task by its index
+					unset tasks["$2"]
 
-						# remove task by its index
-						unset tasks["$2"]
-
-						# print message
-						echo "Removed task: $TASK_NAME"
-					else
-						# if it out of bound, print message
-						echo "Error: Index $2 is out of bound."
-
-						# error exit code
-						exit 1
-					fi
+					# print message
+					echo "Removed task: $TASK_NAME"
 
 				else
 					
